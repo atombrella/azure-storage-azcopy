@@ -4,9 +4,10 @@
 package e2etest
 
 import (
-	"github.com/Azure/azure-storage-azcopy/v10/common"
 	"testing"
 	"time"
+
+	"github.com/Azure/azure-storage-azcopy/v10/common"
 )
 
 // Block/char device rep is untested due to difficulty to test

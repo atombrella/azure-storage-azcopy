@@ -22,9 +22,10 @@ package common
 
 import (
 	"context"
-	"github.com/stretchr/testify/assert"
 	"net/url"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func u(str string) *url.URL {

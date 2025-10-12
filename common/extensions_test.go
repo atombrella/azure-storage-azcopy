@@ -2,13 +2,14 @@ package common
 
 import (
 	"fmt"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blockblob"
-	"github.com/stretchr/testify/assert"
 	"math/rand"
 	"net/url"
 	"strings"
 	"testing"
 	"unsafe"
+
+	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blockblob"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGenerateFullPath(t *testing.T) {

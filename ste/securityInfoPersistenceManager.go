@@ -2,8 +2,9 @@ package ste
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azfile/share"
 	"sync"
+
+	"github.com/Azure/azure-sdk-for-go/sdk/storage/azfile/share"
 
 	"github.com/golang/groupcache/lru"
 )
